@@ -15,15 +15,7 @@ Not\* Bu dökümanın en sonunda da, sunumda seni değerlendireceğimiz başlık
 
 ## Talimatlar
 
-### Görev 1: Proje Kurulumu
 
-- [ ] `npm create vite@latest` komutuyla boş bir çalışma başlatabilirsin. [Dökümantasyon: Scaffolding Your First Vite Project](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
-- [ ] Oluşturulan proje klasörüne gir.
-- [ ] `npm` i kullanarak, gerekli gördüğün kütüphaneleri projene ekleyebilirsin. _Örneğin:_
-- `axios`
-- `toastify`
-- `tailwind`
-- `cypress.io` v.b.
 
 ### Görev 2: UI Tasarımı ve React JS Geliştirmeleri
 
