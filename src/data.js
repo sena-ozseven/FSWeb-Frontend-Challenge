@@ -1,53 +1,14 @@
 const data = {
     en: {
         headerSection: {
-            greeting: "Hi!",
-            intro: "I'm Sena. I'm a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
-            profileImg: "profile-image.jpg",
-            socials: [
-                {
-                    logo: "logo-linkedln.png",
-                    alt_text: "linkedin",
-                    link: "https://www.linkedin.com/in/g%C3%BCl-sena-%C3%B6zseven-418619198/",
-                },
-                {
-                    logo: "logo-github.png",
-                    alt_text: "github",
-                    link: "https://github.com/sena-ozseven",
-                },
-            ],
-            currentHTML: `Currently <strong>Freelancing</strong> for <strong>UX, UI, and Web Design</strong> projects. </br> Invite me to join your team --> <link mailto={gulozseven@gmail.com}>gulozseven@gmail.com</link>`
+            greeting: "I am a Frontend Developer...",
+            intro: "...who likes to craft solid and scalable frontend products with great user experiences.",
         },
 
         skillsSection: {
             title: "Skills",
-            skills: [
-                {
-                    name: "JAVASCRIPT",
-                    icon: "icon-js.png",
-                },
-                {
-                    name: "REACT",
-                    icon: "icon-react.png",
-                },
-                {
-                    name: "REDUX",
-                    icon: "icon-redux.png",
-                },
-                {
-                    name: "NODE",
-                    icon: "icon-node.png",
-                },
-                {
-                    name: "VS CODE",
-                    icon: "icon-VS.png",
-                },
-                {
-                    name: "FIGMA",
-                    icon: "icon-figma.png",
-                },
-            ],
         },
+
         profileSection: {
             title: "Profile",
             basicInfo : {
@@ -82,40 +43,20 @@ const data = {
             },
         },
         footerSection: {
+            title: "Send me a message!",
             sentence: "Let's work together on </br> your next product.",
             links: ["Github", "Personal Blog", "Linkedin", "Email"],
         },
     },
     tr: {
         headerSection: {
-            greeting: "Merhaba!",
-            intro: "Ben Sena. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri geliştirebilirim. Tanışalım!",
-            profileImg: "profile-image.jpg",
-            socials: [
-                {
-                    logo: "logo-linkedln.png",
-                    alt_text: "linkedin",
-                    link: "https://www.linkedin.com/in/g%C3%BCl-sena-%C3%B6zseven-418619198/",
-                },
-                {
-                    logo: "logo-github.png",
-                    alt_text: "github",
-                    link: "https://github.com/sena-ozseven",
-                },
-            ],
-            currentHTML: `Şu anda <strong>UX, UI ve Web Tasarım</strong> projeleri için <strong>Freelance</strong> çalışıyorum. </br> Ekibine katılmamı ister misin? --> <link mailto={gulozseven@gmail.com}>gulozseven@gmail.com</link>`
+            greeting: "Frontend geliştiriciyim...",
+            intro: "...mükemmel kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri üretmeyi seven.",        
         },
 
         skillsSection: {
             title: "Yetenekler",
-            skills: [
-                { name: "JAVASCRIPT", icon: "icon-js.png" },
-                { name: "REACT", icon: "icon-react.png" },
-                { name: "REDUX", icon: "icon-redux.png" },
-                { name: "NODE", icon: "icon-node.png" },
-                { name: "VS CODE", icon: "icon-VS.png" },
-                { name: "FIGMA", icon: "icon-figma.png" },
-            ],
+            
         },
 
         profileSection: {
@@ -131,7 +72,7 @@ const data = {
             },
             aboutMe: {
                 title: "Hakkımda",
-                description: "insanlar benziyoruz diyor </br> saçımızın aynı olduğunu söylüyorlar </br> parada sen ve ben varız </br> sektör harcamaya bayılır </br> bunu internete dökünce </br> internet çılgına dönecek </br> (kız, çok kafa karıştırıcı)"
+                description: "insanlar benziyoruz diyor saçımızın aynı olduğunu söylüyorlar parada sen ve ben varız sektör harcamaya bayılır bunu internete dökünce internet çılgına dönecek (kız, çok kafa karıştırıcı)"
             }
         },
 
@@ -154,6 +95,7 @@ const data = {
         },
 
         footerSection: {
+            title: "Bana mesaj gönder!",
             sentence: "Sonraki ürünün için </br> birlikte çalışalım.",
             links: ["Github", "Kişisel Blog", "Linkedin", "E-posta"],
         },
