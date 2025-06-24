@@ -6,7 +6,7 @@ export default function HeadNav() {
     
     return (
     <>
-        <p className="name">sena</p>
+        <p className="text-red-500">sena</p>
         <button onClick={handleClick}>DİL</button>
     </>
     );
